@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.enter {
+  background-color: #ffffff;
+  font-size: 12px;
+  color: #dd1264;
+  margin: 30px;
+  height: 50px;
+  width: 180px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.hide {
+  background-color: #fddddb;
+  color: #dd1264;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 100px;
+  width: 150px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+}
